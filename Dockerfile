@@ -1,6 +1,6 @@
 FROM nginx
-LABEL name="vue-phone"
+LABEL name="vue-front"
 LABEL version="1.0"
-COPY ./dist /usr/share/nginx/vue-phone
+COPY ./dist /usr/share/nginx/html
 COPY ./vue-phone.conf  /etc/nginx/conf.d
 EXPOSE 80
