@@ -6,10 +6,10 @@
         :to="item.url"
         :key="index"
         @click.native="changeIMG(index)"
-        ><img :src="index == active ? item.imgURL[1] : item.imgURL[0]" /><span
-          >{{ item.text }}</span
-        ></router-link
       >
+        <img :src="index == active ? item.imgURL[1] : item.imgURL[0]" />
+        <span>{{ item.text }}</span>
+      </router-link>
     </div>
     <router-view />
   </div>
@@ -34,7 +34,7 @@ export default {
             require('./common/img/icon-Business.png'),
             require('./common/img/icon-selected-Business.png')
           ],
-          text: '商户中心1'
+          text: '商户中心'
         },
         {
           url: '/about',
