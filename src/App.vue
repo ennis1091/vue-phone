@@ -34,7 +34,7 @@ export default {
             require('./common/img/icon-Business.png'),
             require('./common/img/icon-selected-Business.png')
           ],
-          text: '商户中心2'
+          text: '商户中心'
         },
         {
           url: '/about',
