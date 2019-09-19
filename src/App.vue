@@ -42,7 +42,7 @@ export default {
             require('./common/img/icon-equipment.png'),
             require('./common/img/icon-selected-equipment.png')
           ],
-          text: '设备管理'
+          text: '设备管理2'
         },
         {
           url: '/star',
@@ -50,7 +50,7 @@ export default {
             require('./common/img/icon-Receivables.png'),
             require('./common/img/icon-selected-Receivables.png')
           ],
-          text: '收款管理'
+          text: '收款管理3'
         },
         {
           url: '/person',
